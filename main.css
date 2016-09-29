@@ -1,0 +1,184 @@
+body{ 
+    font-family: Century Gothic, sans-serif;
+    color: #FFFFFF;
+    background-image: url("images/batbg1.jpg");
+	margin: 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+										/* NAVI BAR on top */
+
+#menuItem {
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	z-index: 101;
+	padding: 5px;
+}
+
+#menuItem:link {
+	color: #154360;
+	text-decoration: none;
+	z-index: 101;
+}
+
+#menuItem:visited {
+    color: #154360;
+	text-decoration: none;
+	z-index: 101;
+}
+
+#menuItem:hover {
+	color: white;
+	text-decoration: none;
+	z-index: 101;
+	background: rgba(20, 73, 137, 0.7);
+}
+
+#menuItem.active {
+	color: white;
+	text-decoration: none;
+	z-index: 101;
+	background: rgba(20, 73, 137, 0.7);
+}
+
+#menuItem:active {
+	color: white;
+	text-decoration: none;
+	z-index: 101;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+	margin: 8px;
+	border-left: 9px solid white;
+	border-radius: 1px;
+	background-color: darkgrey;
+	padding: 6px;
+	background-image: url("images/metallic_sheen.jpg"); 
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuFront {
+	position: relative;
+    bottom: 141px;
+    width: 100%;
+	margin: 8px;
+	margin-left: 16.8px;
+	border-left: 9px transparent;
+	border-radius: 1px;
+	background-color: transparent;
+	padding: 6px;
+	z-index: 101;
+}
+
+/* MAIN PAGE ELEMENTS */
+
+#title {
+    font-size: 30px;
+    text-align: left;
+	padding: 10px;
+	margin: 0;
+	margin-left: 50px;
+	color: #CFDAE3;
+}
+
+#strip {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+#stripB {
+	display: block;
+	margin: auto;
+	box-shadow: 3px 3px 10px 10px rgba(117, 138, 138, 0.5);
+}
+#stripName {
+	color: #FFFFFF;
+	font-family: 'Amatica SC', cursive;
+	font-size: 100px;
+	display: block;
+	margin: auto;
+	padding: 300px;
+}
+
+#profilePic {
+	display: block;
+	margin: auto;
+}	
+
+#sec1bg {
+	position: absolute;
+	top: 900px;
+	width: 100%;
+	height: 70%;
+    transform: translateZ(-2.5px) scale(1.05);
+	z-index: -2;
+	margin: 0;
+}
+#sec1bg-2 {
+	position: absolute;
+	top: 900px;
+	width: 100%;
+	height: 70%;
+    transform: translateZ(-2.5px) scale(1.05);
+	z-index: 1;
+	margin: 0;
+}
+
+										/* MISC ELEMENTS */
+
+p {
+	margin: 8px;
+	color: #CFDAE3;
+}
+
+
+a {
+	color: #154360;
+	text-decoration: none;
+	font-family: Arial, Sans-serif;
+}
+
+#bb8 {
+  position: relative;
+  bottom: 100px;
+  z-index: 100;
+}
+
+#filler {
+	height: 710px;
+}
+
+										/* PARALLAX */
+
+div {
+	margin: 0;
+}
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(-0.2px) scale(1.2);
+}
+.parallax__layer--strip {
+  transform: translateZ(-1.5px) scale(2.6);
+}
+.parallax__layer--stripName {
+  transform: translateZ(-6px) scale(7);
+}

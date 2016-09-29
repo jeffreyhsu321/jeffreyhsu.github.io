@@ -1,0 +1,180 @@
+body{ 
+    font-family: Century Gothic, sans-serif;
+    color: #FFFFFF;
+	margin: 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+								/* NAVI BAR on top */
+						
+#menuItem {
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+}
+
+#menuItem:link {
+	color: #154360;
+	text-decoration: none;
+}
+
+#menuItem:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#menu {
+	position: fixed;
+	top: 1.5%;
+    width: 100%;
+	margin: 8px;
+	border-left: 9px solid white;
+	border-radius: 1px;
+	background-color: darkgrey;
+	padding: 6px;
+	z-index: 99;
+	background-image: url("images/metallic_sheen.jpg"); 
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuFront {
+	position: fixed;
+	top: 1.5%;
+    width: 100%;
+	margin: 8px;
+	margin-left: 16.8px;
+	border-left: 9px transparent;
+	border-radius: 1px;
+	background-color: transparent;
+	padding: 6px;
+	z-index: 101;
+}
+
+								/* TRUNK PAGE ELEMENTS */
+
+#title {
+    font-size: 50px;
+    text-align: left;
+	padding: 10px;
+	margin: 0;
+	padding: 60px;
+	margin-left: 50px;
+	font-weight: normal;
+	font-family: 'Indie Flower', cursive;
+}
+
+#titleBlack {
+	color: #000000;
+    font-size: 50px;
+    text-align: left;
+	padding: 10px;
+	margin: 0;
+	padding: 60px;
+	margin-left: 50px;
+	font-weight: normal;
+	font-family: 'Indie Flower', cursive;
+}
+
+#profilePic {
+	display: block;
+	margin: auto;
+}
+
+								/* MISC ELEMENTS */
+
+a {
+	color: #154360;
+	text-decoration: none;
+	font-family: Arial, Sans-serif;
+}
+
+p {
+	margin: 8px;
+}
+
+#bb8 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+								/* BLANK SPACES */
+
+div.blankSpaceBottom {
+	min-height: 4em;
+	clear: both;
+}
+div.blankSpace {
+	min-height: 85px;
+}
+div.blankSpace2 {
+	min-height:150px;
+}
+div.blankSpace3 {
+	min-height: 60px;
+}
+div.blankSpace4 {
+	min-height: 150px;
+}
+div.blankSpace5 {
+	min-height: 120px;
+}
+
+								/* PORTFOLIO PROJECTS */
+
+#projectTitle {
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: white;
+	padding-left: 20px;
+    margin-left: 15%;
+	margin-bottom: 10px;
+	width: 20em;
+}
+
+#projectScratch {
+	display: block;
+    margin-left: 15%;
+	float: left;
+	padding-right: 20px;
+}
+
+#projectYoutube {
+	display: block;
+    margin-left: 15%;
+	float: left;
+	padding-right: 20px;
+}
+
+#projectPython {
+	display: block;
+    margin-left: 15%;
+	float: left;
+	padding-right: 20px;
+}
+
+
+div.projectDesc {
+	width: 1400px;
+}
+div.projectDesc h1 {
+	font-weight: normal;
+	font-size: 20px;
+}
+div.projectDesc p {
+	margin-bottom: 20px;
+}
+div.projectDesc a {
+	color: lightgrey;
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+}
+div.projectDesc a:hover {
+	color: white;
+	text-decoration: underline;
+}
