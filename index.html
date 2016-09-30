@@ -15,11 +15,11 @@
 			<img id="stripB" src="images/stripB.jpg" height="70" width="100%">
 			</div>
 		<div class="parallax__layer parallax__layer--stripName"><!--stripName-->
-			<p id="stripName" align="center">J E F F R E Y &nbsp; HSU</p>
+			<p id="stripName" align="center">J E F F R E Y &nbsp; H S U</p>
 			</div>
 		<div class="parallax__layer parallax__layer--base"><!--base-->
-			<img id="sec1bg" src="images/material8.jpg">
-			<img id="sec1bg-2" src="images/material8-3.png">
+			<img id="sec1bg" src="images/material6.jpg">
+			<img id="sec1bg-2" src="images/flat3-2.png">
 			<div id="filler"></div>
 			<h4 id="menu"><!-- Navi bar -->
 				<a id="menuItem" href="index.html"></a><!--navi bar background(metallic_sheen.jpg)-->
@@ -35,9 +35,29 @@
 				</h4>
 			<h2 id="title">all you want to know about me</h2>
 			<p>This is the bio. Please read and subscribe. Yes. More filler text.</p>
-			<img id="profilePic" src="images/me.jpg" height="400">
-		    <div id="filler"></div>
+			<img id="profilePic" src="images/me2.jpg" height="400">
+		    <div id="filler"> </div>
 		</div>
 	  </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		//changing text for stripName
+		$(document).ready(function () {
+			$(".parallax").scroll(function () {
+				if ($(this).scrollTop() > 800) {
+					$("#stripName").text("I'M ");
+					$("#stripName").append("&nbsp; &nbsp;");
+					$("#stripName").append("B A T M A N");
+					//change text
+				} else {
+					$("#stripName").text("J E F F R E Y ");
+					$("#stripName").append("&nbsp; &nbsp;");
+					$("#stripName").append("H S U");
+					//reset text
+				}
+			});
+		});
+	</script>
   </body>
 </html>

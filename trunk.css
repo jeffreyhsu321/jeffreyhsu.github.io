@@ -103,37 +103,62 @@ p {
 }
 
 								/* BLANK SPACES */
-
+div {
+	padding: 3px;
+}
 div.blankSpaceBottom {
-	min-height: 4em;
+	/* min-height: 4em; */
 	clear: both;
 }
 div.blankSpace {
-	min-height: 85px;
+	min-height: 70px;
 }
 div.blankSpace2 {
-	min-height:150px;
+	min-height:130px;
 }
 div.blankSpace3 {
-	min-height: 60px;
+	min-height: 40px;
 }
 div.blankSpace4 {
-	min-height: 150px;
+	min-height: 130px;
 }
 div.blankSpace5 {
-	min-height: 120px;
+	min-height: 100px;
 }
+
+								/* PROJECT BACKGROUND */
+#projectA{
+	background-image: url("images/material10.jpg");
+	color: #383838;
+	font-weight: 800;
+}
+#projectA a:hover{
+	color: #000000;
+}
+
+#projectB{
+	background-image: url("images/material9.jpg");
+	color: #FFFFFF;
+}
+
+#projectC{
+	color: #FFFFFF;
+}
+#projectC a{
+	color: #FFFFFF;
+}
+
 
 								/* PORTFOLIO PROJECTS */
 
 #projectTitle {
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
-	color: white;
 	padding-left: 20px;
     margin-left: 15%;
 	margin-bottom: 10px;
 	width: 20em;
+	font-weight: bolder;
 }
 
 #projectScratch {
@@ -169,7 +194,6 @@ div.projectDesc p {
 	margin-bottom: 20px;
 }
 div.projectDesc a {
-	color: lightgrey;
 	text-decoration: none;
 	font-family: 'Indie Flower', cursive;
 	font-size:20px;
