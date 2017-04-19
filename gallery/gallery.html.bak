@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <link href="../trunk.css" rel="stylesheet" type="text/css"> 
+	<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower|Poiret+One" rel="stylesheet"> <!--Custom Fonts-->
+    <meta charset="utf-8">
+    <title>Gallery</title>
+  </head>
+  <script id="projectPython" src="//repl.it/embed/DdvC/61.js"></script>
+  <body background="../images/bg3.png">
+	<!--Navigation Bar-->
+    <h4 id="menu">
+      <a id="menuItem" href="../index.html">HOME</a>
+	  <span>  |  </span>
+      <a id="menuItem" href="../portfolio/portfolio.html">PORTFOLIO</a>
+	  <span>  |  </span>
+	  <a id="menuItem" href="gallery.html">GALLERY</a>
+	  <span>  |  </span>
+      <a id="menuItem" href="../contact/contact.html">CONTACT</a>
+	</h4>
+	<h4 id="menuFront"> <!--Floating-->
+      <a id="menuItem" href="../index.html">HOME</a>
+	  <span>  |  </span>
+      <a id="menuItem" href="../portfolio/portfolio.html">PORTFOLIO</a>
+	  <span>  |  </span>
+	  <a id="menuItem" href="gallery.html">GALLERY</a>
+	  <span>  |  </span>
+      <a id="menuItem" href="../contact/contact.html">CONTACT</a>
+	</h4>
+	<marquee id="bb8" behavior="scroll" direction="left" scrollamount="24"><img src="../images/bb8.gif" height="40"></marquee>
+    <h2 id="title">fotographys</h2>
+    
+<!--Photos-->
+	<div id="projectA">
+		<div><!--the Galatical Android vs Apple-->
+			<h2 id="projectTitle">the Galatical Android vs Apple</h2>
+			<iframe id="projectScratch" allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/12999512/?autostart=false" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="projectDesc">
+			<h1>Scratch</h1>
+			<h1>Oct 2013 - Sep 2013 (Freshman)</h1>
+			<p>Started off as a experiment with variables in Scratch and ended up as a months-long project. Was originally designed with crabs and falling coconuts, however a product brand rivalry with a friend revolutionized the game by implementing iOS and Android themes.</p>
+			<p>This particular Scratch program is the second project that spanned several weeks, however the other was never published and was lost in old hard drives. Along from being the first to reach the Internet, it was also one of my most successful one with its "Featured" status and relative popularity.</p>
+			<div class="blankSpace"></div>
+			<p><a href="https://scratch.mit.edu/projects/12999512/" target="top">Link to Scratch Project (recommended for optimal review)</a></p>
+		</div>
+		<div class="blankSpaceBottom"></div>
+	</div>
+	
+<!--Videos-->
+	<div id="projectC">
+		<div><!--Poem Illustration-->
+			<h2 id="projectTitle">Poem Illustration</h2>
+			<iframe id="projectYoutube" width="560" height="315" src="https://www.youtube.com/embed/ZDYo3Fthym0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="projectDesc">
+			<h1>Digital Photograph</h1>
+			<h1>Mar 2017 (Senior)</h1>
+			<p>A poem with a photo and texture accompanying each sentence.</p>
+			<p></p>
+			<div class="blankSpace3"></div>
+			<p><a href="https://www.youtube.com/watch?v=ZDYo3Fthym0&t=2s" target="top">Link to Youtube Video</a></p>
+		</div>
+		<div class="blankSpaceBottom"></div>
+		
+	<div class="blankSpaceBottom"></div>
+  </body>
+</html>
