@@ -7,6 +7,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+img.background{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+	
+	z-index: -1;
+
+    width: auto;
+    height: auto;
+
+    max-height: none;
+    max-width: none;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
 
 								/* NAVI BAR on top */
 						
@@ -146,6 +166,89 @@ div.blankSpace5 {
 }
 #projectC a{
 	color: #FFFFFF;
+}
+
+#gallery{
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	animation: galleryGalleryPulse 10s infinite;
+}
+.galleryContainer {
+  position: relative;
+  width: 50%;
+}
+.galleryOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.galleryContainer:hover .overlay {
+  height: 100%;
+}
+
+.galleryText {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.grayscale{-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.galleryBGPulse{
+  animation: galleryBGPulse 10s infinite;
+}
+@keyframes galleryBGPulse{
+  0%  {
+    -webkit-filter: opacity(100%); 
+	filter: opacity(100%);
+	-webkit-filter: contrast(100%); 
+	filter: contrast(100%);;
+  }
+  70% {
+	-webkit-filter: opacity(50%); 
+	filter: opacity(50%);
+	-webkit-filter: contrast(200%); 
+	filter: contrast(200%);;
+  }
+  100% {
+    -webkit-filter: opacity(100%); 
+	filter: opacity(100%) 
+	-webkit-filter: contrast(100%); 
+	filter: contrast(100%);;
+  }
+}
+@keyframes galleryGalleryPulse{
+	0% {
+		-webkit-filter: blur(0px); filter: blur(0px);
+		-webkit-filter: contrast(100%); filter: contrast(100%);
+	}
+	45% {
+		-webkit-filter: blur(0px); filter: blur(0px);
+		-webkit-filter: contrast(100%); filter: contrast(100%);
+	}
+	60% {
+		-webkit-filter: blur(2px); filter: blur(2px);
+		-webkit-filter: contrast(120%); filter: contrast(120%);
+	}
+	100% {
+		-webkit-filter: blur(0px); filter: blur(0px);
+		-webkit-filter: contrast100%); filter: contrast(100%);
+	}
 }
 
 
